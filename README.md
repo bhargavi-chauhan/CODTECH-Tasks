@@ -1,4 +1,4 @@
-# Internship - Task (1/4)
+# CODTECH Internship Tasks 
 **COMPANY**: CODTECH IT SOLUTIONS
 
 **NAME**: Bhargavi Kamleshsingh Chauhan
@@ -10,3 +10,11 @@
 **BATCH DURATION**: January 10th, 2025 to February10th, 2025
 
 **MENTOR NAME**: Neela Santhosh Kumar
+
+# TASK 1: INTERACTIVE-QUIZ-APPLICATION
+
+# TASK 2: REAL-TIME CHAT APPLICATION
+
+# TASK 3: PERSONAL PORTFOLIO WEBPAGE
+
+# TASK 4: E-LEARNING PLATFORM UI
