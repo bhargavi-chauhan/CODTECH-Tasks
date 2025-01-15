@@ -19,7 +19,7 @@ engaging feedback and navigation.
 ![Screenshot 2025-01-15 212928](https://github.com/user-attachments/assets/368cd152-ca6d-495e-b1b0-cf90d6941418)
 ![Screenshot 2025-01-15 212942](https://github.com/user-attachments/assets/270f51a6-d4f5-4ed5-9de4-0231c270b5f6)
 
-### You can access the *Interactive Quiz Application* through the following link:
+###### You can access the *Interactive Quiz Application* through the following link:
  🔗https://bhargavi-chauhan.github.io/CODTECH-Tasks/TASK1/index.html
 
 # TASK 2: REAL-TIME CHAT APPLICATION
