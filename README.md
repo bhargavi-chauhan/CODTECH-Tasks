@@ -12,7 +12,8 @@
 **MENTOR NAME**: Neela Santhosh Kumar
 
 # TASK 1: INTERACTIVE QUIZ APPLICATION
-This Interactive Quiz Application allows users to take a quiz, answer questions, and receive immediate feedback on their answers. The app dynamically loads questions and offers a smooth user experience with engaging feedback and navigation.
+This Interactive Quiz Application allows users to take a quiz, answer questions, and receive immediate feedback on their answers. The app dynamically loads questions and offers a smooth user experience with 
+engaging feedback and navigation.
 
 Technology Stack:
 HTML: Used for structure and content display.
