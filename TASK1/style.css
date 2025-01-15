@@ -14,26 +14,9 @@ body {
   display: none;
 }
 
-#next-btn {
-  position: absolute; /* Position relative to the container */
-  bottom: 20px; /* Distance from the bottom of the container */
-  right: 20px; /* Distance from the right of the container */
-  padding: 10px 20px;
-  background-color: #ffffff;
-  border: none;
-  color: black;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-#next-btn:hover {
-  background-color: #eae2b7;
-}
-
 #quiz-container {
   background: rgba(0, 0, 0, 0.8);
-  position: relative; /* Establish a positioning context for the Next button */
+  position: relative; 
   padding: 40px;
   border-radius: 10px;
   width: auto;
@@ -44,38 +27,56 @@ body {
 button {
   padding: 10px 20px;
   background-color: #4caf50;
-  border: none;
+  border: 2px solid white;
+  border-radius: 15px;
   color: white;
-  font-size: 16px;
+  font-size: 25px;
   cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 button:hover {
   background-color: #45a049;
 }
 
-#feedback {
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 20px;
+#next-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-button:disabled {
+#next-btn:hover {
+  background-color: #eae2b7;
+}
+
+#next-btn:disabled {
+  background-color: #ccc;
   cursor: not-allowed;
-  opacity: 0.6;
+}
+
+#restart-btn{
+  font-size: 20px;
 }
 
 #options {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px; /* Space between options */
+  gap: 10px;
   margin-top: 20px;
 }
 
 #options button {
-  width: 100%; /* Full width of the container */
-  max-width: 400px; /* Limit the maximum width */
+  width: 90%; 
+  max-width: 300px; 
   padding: 10px 15px;
   background-color: #ffffff;
   border: none;
@@ -86,8 +87,8 @@ button:disabled {
   cursor: pointer;
   text-align: center;
   transition: all 0.3s ease;
-  margin: 0 auto; /* Center options horizontally */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  margin: 0 auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 #options button:hover {
@@ -100,7 +101,30 @@ button:disabled {
   border-color: #a9a9a9;
   color: #ffffff;
   cursor: not-allowed;
+  opacity: 0.7;
 }
 
+#feedback {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #ffdf00; 
+}
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  #quiz-container {
+    padding: 25px;
+    width: 40%; 
+    width: auto;
+  }
 
+  button {
+    font-size: 24px; 
+  }
+
+  #options button {
+    width: 100%;
+    font-size: 14px;
+  }
+}
