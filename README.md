@@ -15,6 +15,9 @@
 This Interactive Quiz Application allows users to take a quiz, answer questions, and receive immediate feedback on their answers. The app dynamically loads questions and offers a smooth user experience with 
 engaging feedback and navigation.
 
+### You can access the *Interactive Quiz Application* through the following link:
+ 🔗https://bhargavi-chauhan.github.io/CODTECH-Tasks/TASK1/index.html
+
 # TASK 2: REAL-TIME CHAT APPLICATION
 
 # TASK 3: PERSONAL PORTFOLIO WEBPAGE
