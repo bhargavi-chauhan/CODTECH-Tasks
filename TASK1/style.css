@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: url('src/q_mark.jpg') no-repeat center center/cover;
+  background: url('assets/q_mark.jpg') no-repeat center center/cover;
   color: white;
   text-align: center;
   display: flex;
