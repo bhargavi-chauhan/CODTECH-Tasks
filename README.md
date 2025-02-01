@@ -25,6 +25,9 @@ engaging feedback and navigation.
 # TASK 2: REAL-TIME CHAT APPLICATION
 A real-time chat application built with React.js and Socket.IO that allows users to communicate instantly.
 
+![Image](https://github.com/user-attachments/assets/d60a6428-ebf6-4128-aaf3-8cf12c73e458)
+![Image](https://github.com/user-attachments/assets/720ab601-97a6-4cd2-ad77-bc36a8df0391)
+![Image](https://github.com/user-attachments/assets/70187042-e728-4af5-83ca-746c9fcb3799)
 ## Features
 
 - Real-time messaging
