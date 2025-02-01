@@ -67,4 +67,3 @@ This README includes:
 8. Contributing guidelines
 9. License information
 
-![image](https://github.com/user-attachments/assets/6ab8bf97-0b64-41e6-8b56-697e65516ac5)
