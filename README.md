@@ -25,17 +25,17 @@ engaging feedback and navigation.
 # TASK 2: REAL-TIME CHAT APPLICATION
 A real-time chat application built with React.js and Socket.IO that allows users to communicate instantly.
 
-![Image](https://github.com/user-attachments/assets/6ade62dc-d5fa-4950-ae1f-4c0e56c6f10b)
-![Image](https://github.com/user-attachments/assets/d4d4b2fe-d524-4203-b0de-f28afbab7d70)
-![Image](https://github.com/user-attachments/assets/0938dab5-ece4-4776-8073-cab31b456a0a)
+![Image](https://github.com/user-attachments/assets/b00f04e1-d2c2-4786-88e2-35bfbd1af189)
+![Image](https://github.com/user-attachments/assets/8cf0f238-86d5-4bb9-be57-73bb003bb5e8)
+![Image](https://github.com/user-attachments/assets/8be7c6f8-97ca-45a8-af3f-e6c270d1bed1)
 
-## Prerequisites
+### Prerequisites
 
 Before running this application, make sure you have the following installed:
 - Node.js (v14 or higher)
 - npm (Node Package Manager)
 
-## Installation
+### Installation
 
 1. Clone the repository
 ```bash
@@ -55,7 +55,7 @@ cd ../client
 npm install
 ```
 
-## Running the Application
+### Running the Application
 
 1. Start the Server
 ```bash
@@ -71,7 +71,7 @@ npm run dev
 ```
 The client will start on http://localhost:5173
 
-## Usage
+### Usage
 
 1. Open http://localhost:5173 in your browser
 2. Enter your username to join the chat
