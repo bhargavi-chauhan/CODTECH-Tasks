@@ -23,6 +23,124 @@ engaging feedback and navigation.
  🔗https://bhargavi-chauhan.github.io/CODTECH-Tasks/TASK1/index.html
 
 # TASK 2: REAL-TIME CHAT APPLICATION
+A real-time chat application built with React.js and Socket.IO that allows users to communicate instantly.
+
+## Features
+
+- Real-time messaging
+- User join/leave notifications
+- Online users list
+- Clean and modern UI
+- Message history
+- System notifications
+
+## Tech Stack
+
+- **Frontend:**
+  - React.js
+  - Socket.IO Client
+  - Emotion (Styled Components)
+  - Vite
+
+- **Backend:**
+  - Node.js
+  - Express.js
+  - Socket.IO
+
+## Prerequisites
+
+Before running this application, make sure you have the following installed:
+- Node.js (v14 or higher)
+- npm (Node Package Manager)
+
+## Installation
+
+1. Clone the repository
+```bash
+git clone <repository-url>
+cd chat-application
+```
+
+2. Install Server Dependencies
+```bash
+cd server
+npm install
+```
+
+3. Install Client Dependencies
+```bash
+cd ../client
+npm install
+```
+
+## Running the Application
+
+1. Start the Server
+```bash
+cd server
+npm run dev
+```
+The server will start on http://localhost:3000
+
+2. Start the Client (in a new terminal)
+```bash
+cd client
+npm run dev
+```
+The client will start on http://localhost:5173
+
+## Usage
+
+1. Open http://localhost:5173 in your browser
+2. Enter your username to join the chat
+3. Start chatting!
+
+## Project Structure
+
+```
+chat-application/
+├── client/             # React frontend
+│   ├── src/
+│   │   ├── assets/    # Images and static files
+│   │   ├── components/# React components
+│   │   ├── App.jsx    # Main React component
+│   │   └── main.jsx   # React entry point
+│   └── package.json   # Frontend dependencies
+└── server/            # Node.js backend
+    ├── src/
+    │   └── index.js   # Server entry point
+    └── package.json   # Backend dependencies
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## Acknowledgments
+
+- Socket.IO documentation
+- React documentation
+- Emotion Styled Components
+```
+
+This README includes:
+1. Project overview
+2. Features list
+3. Technology stack
+4. Installation instructions
+5. Running instructions
+6. Project structure
+7. Usage guide
+8. Contributing guidelines
+9. License information
 
 # TASK 3: PERSONAL PORTFOLIO WEBPAGE
 
