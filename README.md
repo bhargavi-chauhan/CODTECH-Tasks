@@ -25,30 +25,9 @@ engaging feedback and navigation.
 # TASK 2: REAL-TIME CHAT APPLICATION
 A real-time chat application built with React.js and Socket.IO that allows users to communicate instantly.
 
-![Image](https://github.com/user-attachments/assets/d60a6428-ebf6-4128-aaf3-8cf12c73e458)
-![Image](https://github.com/user-attachments/assets/720ab601-97a6-4cd2-ad77-bc36a8df0391)
-![Image](https://github.com/user-attachments/assets/70187042-e728-4af5-83ca-746c9fcb3799)
-## Features
-
-- Real-time messaging
-- User join/leave notifications
-- Online users list
-- Clean and modern UI
-- Message history
-- System notifications
-
-## Tech Stack
-
-- **Frontend:**
-  - React.js
-  - Socket.IO Client
-  - Emotion (Styled Components)
-  - Vite
-
-- **Backend:**
-  - Node.js
-  - Express.js
-  - Socket.IO
+![Image](https://github.com/user-attachments/assets/6ade62dc-d5fa-4950-ae1f-4c0e56c6f10b)
+![Image](https://github.com/user-attachments/assets/d4d4b2fe-d524-4203-b0de-f28afbab7d70)
+![Image](https://github.com/user-attachments/assets/0938dab5-ece4-4776-8073-cab31b456a0a)
 
 ## Prerequisites
 
@@ -97,54 +76,7 @@ The client will start on http://localhost:5173
 1. Open http://localhost:5173 in your browser
 2. Enter your username to join the chat
 3. Start chatting!
-
-## Project Structure
-
-```
-chat-application/
-├── client/             # React frontend
-│   ├── src/
-│   │   ├── assets/    # Images and static files
-│   │   ├── components/# React components
-│   │   ├── App.jsx    # Main React component
-│   │   └── main.jsx   # React entry point
-│   └── package.json   # Frontend dependencies
-└── server/            # Node.js backend
-    ├── src/
-    │   └── index.js   # Server entry point
-    └── package.json   # Backend dependencies
-```
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
-## Acknowledgments
-
-- Socket.IO documentation
-- React documentation
-- Emotion Styled Components
-```
-
-This README includes:
-1. Project overview
-2. Features list
-3. Technology stack
-4. Installation instructions
-5. Running instructions
-6. Project structure
-7. Usage guide
-8. Contributing guidelines
-9. License information
-
+   
 # TASK 3: PERSONAL PORTFOLIO WEBPAGE
 
 # TASK 4: E-LEARNING PLATFORM UI
