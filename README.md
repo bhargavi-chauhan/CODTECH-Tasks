@@ -82,6 +82,9 @@ The client will start on http://localhost:5173
 # TASK 4: E-LEARNING PLATFORM UI
 ThriveTeach is a modern online learning platform built with Next.js and TypeScript, designed to provide high-quality educational content to learners worldwide.
 
+![Image](https://github.com/user-attachments/assets/d37c5677-eea9-4d01-9ca8-7fabf8191cf2)
+![Image](https://github.com/user-attachments/assets/5c914429-3462-42f8-9388-05440b42b297)
+
 ### Prerequisites
 
 - Node.js 18+ 
