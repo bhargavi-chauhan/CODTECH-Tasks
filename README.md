@@ -80,3 +80,31 @@ The client will start on http://localhost:5173
 # TASK 3: PERSONAL PORTFOLIO WEBPAGE
 
 # TASK 4: E-LEARNING PLATFORM UI
+ThriveTeach is a modern online learning platform built with Next.js and TypeScript, designed to provide high-quality educational content to learners worldwide.
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/thrive-teach.git
+cd thrive-teach
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Run the development server:
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:3000] in your browser.
+
+
