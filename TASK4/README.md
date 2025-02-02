@@ -1,27 +1,50 @@
+## Features
+
+- 🎓 Course browsing and filtering
+- 👤 User authentication
+- 📱 Responsive design
+- 🎨 Modern UI with Tailwind CSS
+- ✨ Smooth animations with Framer Motion
+- 📊 Course progress tracking
+- 🔍 Advanced search functionality
+
+## Tech Stack
+
+- **Framework:** Next.js 14
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animation:** Framer Motion
+- **State Management:** Zustand
+- **Form Handling:** React Hook Form + Zod
+- **Testing:** Jest + React Testing Library
+
 ### Project Structure
+
+```
 src/
 ├── components/
-│ ├── layout/
-│ │ ├── Navbar.tsx
-│ │ ├── Footer.tsx
-│ │ └── MainLayout.tsx
-│ ├── courses/
-│ │ ├── CourseCard.tsx
-│ │ └── CourseContentOrganizer.tsx
-│ └── ui/
-│ └── animations.tsx
+│   ├── layout/
+│   │   ├── Navbar.tsx
+│   │   ├── Footer.tsx
+│   │   └── MainLayout.tsx
+│   ├── courses/
+│   │   ├── CourseCard.tsx
+│   │   └── CourseContentOrganizer.tsx
+│   └── ui/
+│       └── animations.tsx
 ├── pages/
-│ ├── app.tsx
-│ ├── index.tsx
-│ ├── login.tsx
-│ ├── signup.tsx
-│ └── courses/
-│ ├── index.tsx
-│ └── [id].tsx
+│   ├── _app.tsx
+│   ├── index.tsx
+│   ├── login.tsx
+│   ├── signup.tsx
+│   └── courses/
+│       ├── index.tsx
+│       └── [id].tsx
 ├── store/
-│ └── useAuthStore.ts
+│   └── useAuthStore.ts
 └── styles/
-└── globals.css
+    └── globals.css
+```
 
 ## Available Scripts
 
