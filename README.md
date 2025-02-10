@@ -83,7 +83,7 @@ This task involves creating my personal portfolio webpage to showcase my skills,
 ![Image](https://github.com/user-attachments/assets/a8f17e94-584f-4743-9c0c-3b3ec81a7d3a)
 ![Image](https://github.com/user-attachments/assets/2f91e74d-4eea-4b14-b1b8-9a8b66dd5819)
 
-###### You can access the *Interactive Quiz Application* through the following link:
+###### You can access the *Portfolio Webpage* through the following link:
  🔗https://bhargavi-chauhan.github.io/CODTECH-Tasks/TASK3/index.html
 
 # TASK 4: E-LEARNING PLATFORM UI
