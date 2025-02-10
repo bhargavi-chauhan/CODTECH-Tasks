@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bhargavi-chauhan.me</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Add right after body tag opens -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <!-- Header with Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">&lt;BC/&gt;</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <button class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <h1>Hi, I'm <span class="highlight">Bhargavi <br> Chauhan -</span></h1>
+            <p class="subtitle typing-text">Crafting digital experiences with precision and purpose.</p>
+            <p class="brief-intro">Full Stack Developer.</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+            <a href="#" id='resume-button' class="fa-regular fa-file-pdf" onclick="downloadResume()"> CV</a>
+           
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="assets/mypic.png" alt="Bhargavi Chauhan">
+                </div>
+                <div class="about-text">
+                    <p>I am an aspiring Full Stack Developer currently pursuing undergraduate degree in Artificial
+                        Intelligence and Data Science. I am passionate about creating intuitive and scalable web
+                        applications. With a keen eye for design and efficiency, I enjoy turning ideas into impactful
+                        digital experiences. </p>
+                    <div class="education">
+                        <h3>Education</h3>
+                        <div class="education-item">
+                            <h4>B.Tech in AI and Data Science</h4>
+                            <p>BRACT's Vishwakarma Institute of Information Technology, Pune</p>
+                            <p>2022 - 2026</p>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <div class="skill-list">
+                            <div class="skill">
+                                <img src="https://cdn.simpleicons.org/python" alt="Python Logo">
+                                Python
+                            </div>
+                            <div class="skill">
+                                <img src="https://cdn.simpleicons.org/html5" alt="HTML Logo">
+                                HTML
+                            </div>
+                            <div class="skill">
+                                <img src="https://cdn.simpleicons.org/css3" alt="CSS Logo">
+                                CSS
+                            </div>
+                            <div class="skill">
+                                <img src="https://cdn.simpleicons.org/javascript" alt="JavaScript Logo">
+                                JavaScript
+                            </div>
+                            <div class="skill">
+                                <img src="https://cdn.simpleicons.org/react" alt="React Logo">
+                                React
+                            </div>
+                            <div class="skill">
+                                <img src="https://cdn.simpleicons.org/nodedotjs" alt="NodeJS Logo">
+                                NodeJS
+                            </div>
+                            <div class="skill">
+                                <img src="https://cdn.simpleicons.org/tailwindcss" alt="Tailwind CSS Logo">
+                                Tailwind CSS
+                            </div>
+                            <div class="skill">
+                                <img src="https://cdn.simpleicons.org/mysql" alt="MySQL Logo">
+                                SQL
+                            </div>
+                            <div class="skill">
+                                <img src="https://cdn.simpleicons.org/mongodb" alt="MongoDB Logo">
+                                MongoDB
+                            </div>
+                            <div class="skill">
+                                <img src="https://cdn.simpleicons.org/flask" alt="Flask Logo">
+                                Flask
+                            </div>
+                            <div class="skill">
+                                <img src="https://cdn.simpleicons.org/git" alt="Git Logo">
+                                Git
+                            </div>
+                            <div class="skill">
+                                <img src="https://cdn.simpleicons.org/github" alt="GitHub Logo">
+                                GitHub
+                            </div>
+                            <div class="skill">
+                                <img src="https://cdn.simpleicons.org/postman" alt="Postman Logo">
+                                Postman
+                            </div>
+                            <div class="skill">
+                                <img src="https://cdn.simpleicons.org/express" alt="ExpressJS Logo">
+                                ExpressJS
+                            </div>
+                            <div class="skill">
+                                <img src="https://cdn.simpleicons.org/angular" alt="Angular Logo">
+                                Angular
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/covid.jpg" alt="Covid Management System">
+                    </div>
+                    <div class="project-info">
+                        <h3>Covid Management System</h3>
+                        <p>A web-based platform to streamline vaccination center operations worldwide using PHP, MySQL,
+                            and JavaScript.</p>
+                        <div class="tech-stack">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/voting.jpg" alt="E-Voting System">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Voting System</h3>
+                        <p>A secure blockchain-based voting system with post-quantum cryptographic signatures for
+                            enhanced security.</p>
+                        <div class="tech-stack">
+                            <span>Blockchain</span>
+                            <span>Python</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+91 xxxxxxxx18</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>bhargavi.c2004@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Pune, Maharashtra - 411048, India</p>
+                    </div>
+                    <!-- Line below the address section -->
+                    <hr class="divider">
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                <!-- Social Links Below the Line -->
+                <div class="social-links">
+                    <a href="https://github.com/bhargavi-chauhan" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/bhargavi-chauhan-549b2b252" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Bhargavi Chauhan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Add before closing body tag -->
+    <button id="scroll-top" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        function downloadResume() {
+            const resumeUrl = "assets/Bhargavi_Chauhan_Resume.pdf";
+            const link = document.createElement("a");
+            link.href = resumeUrl;
+            link.download = "Bhargavi_Chauhan_Resume.pdf";
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+        // Simple dark mode toggle
+        const themeToggle = document.querySelector('.theme-toggle');
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            const icon = themeToggle.querySelector('i');
+            icon.classList.toggle('fa-moon');
+            icon.classList.toggle('fa-sun');
+        });
+
+
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        // Add scroll animation
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.about-content, .project-card, .contact-content')
+            .forEach(el => {
+                el.classList.add('fade-in');
+                observer.observe(el);
+            });
+
+        // Scroll to top functionality
+        const scrollTop = document.getElementById('scroll-top');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                scrollTop.classList.add('visible');
+            } else {
+                scrollTop.classList.remove('visible');
+            }
+        });
+
+        scrollTop.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Loading animation
+        window.addEventListener('load', () => {
+            const loader = document.querySelector('.loader');
+            setTimeout(() => {
+                loader.classList.add('hidden');
+            }, 500);
+        });
+    </script>
+</body>
+
+</html>
